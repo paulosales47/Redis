@@ -2,6 +2,7 @@
   "name": "tutorialredis",
   "version": "1.0.0",
   "description": "Projeto para tutorial sobre Redis",
+  "repository": "https://github.com/paulosales47/Redis.git",
   "main": "idenx.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,5 +13,8 @@
     "js"
   ],
   "author": "Paulo Henrique Sales Sampaio",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "redis": "^2.8.0"
+  }
 }
